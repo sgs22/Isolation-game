@@ -1,0 +1,40 @@
+*.psd filter=lfs diff=lfs merge=lfs -text
+<<<<<<< HEAD
+*.resS filter=lfs diff=lfs merge=lfs -text
+
+@@ -0,0 +1,33 @@
+# ===========================
+# Default Collab Ignore Rules
+# ===========================
+
+# OS Generated
+# ============
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
+
+# Visual Studio / MonoDevelop generated
+# =====================================
+[Ee]xported[Oo]bj/
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+# Unity generated
+# ===============
+[Oo]bj/
+[Bb]uild
+sysinfo.txt
+*.stackdump
+=======
+>>>>>>> parent of 22de825 (init commit)
